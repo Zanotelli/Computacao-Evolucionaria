@@ -22,7 +22,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install numpy
           pip install matplotlib
-          pip install random
 
       - name: Test with pytest
         run: |

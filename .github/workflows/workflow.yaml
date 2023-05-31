@@ -19,9 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install numpy
-          python -m pip install matplotlib
-          python -m pip install random
+          python -m pip install numpy matplotlib random
 
       - name: Test with pytest
         run: |
